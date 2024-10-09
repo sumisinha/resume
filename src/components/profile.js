@@ -34,12 +34,12 @@ function Profile() {
                     </Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush">
-                    <ListGroup.Item><Link to='/about'>Introduction</Link></ListGroup.Item>
-                    <ListGroup.Item><Link to="/profile-summary">Profile Summary</Link></ListGroup.Item>
-                    <ListGroup.Item><Link to="/education">Education</Link></ListGroup.Item>
-                    <ListGroup.Item><Link to="/skills">Skill</Link></ListGroup.Item>
-                    <ListGroup.Item><Link to="/workexp">Work Experience</Link></ListGroup.Item>
-                    <ListGroup.Item><Link to="/projects">Projects</Link></ListGroup.Item>
+                    <ListGroup.Item><Link to='/resume/about'>Introduction</Link></ListGroup.Item>
+                    <ListGroup.Item><Link to="/resume/profile-summary">Profile Summary</Link></ListGroup.Item>
+                    <ListGroup.Item><Link to="/resume/education">Education</Link></ListGroup.Item>
+                    <ListGroup.Item><Link to="/resume/skills">Skill</Link></ListGroup.Item>
+                    <ListGroup.Item><Link to="/resume/workexp">Work Experience</Link></ListGroup.Item>
+                    <ListGroup.Item><Link to="/resume/projects">Projects</Link></ListGroup.Item>
                 </ListGroup>
             </Card>
         </div>

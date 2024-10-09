@@ -25,13 +25,13 @@ function App() {
                   <Profile/>
                   <div className='detailContainer'>
                     <Routes>
-                      <Route exact path="/" element={<About />} />
-                      <Route path="/about" element={<About />} />
-                      <Route path="/education" element={<Education />} />
-                      <Route path="/profile-summary" element={<ProfileSummary />} />
-                      <Route path="/skills" element={<Skills />} />
-                      <Route path="/projects" element={<Projects />} />
-                      <Route path="/workexp" element={<WorkExp />} />
+                      <Route exact path="/resume" element={<About />} />
+                      <Route path="/resume/about" element={<About />} />
+                      <Route path="/resume/education" element={<Education />} />
+                      <Route path="/resume/profile-summary" element={<ProfileSummary />} />
+                      <Route path="/resume/skills" element={<Skills />} />
+                      <Route path="/resume/projects" element={<Projects />} />
+                      <Route path="/resume/workexp" element={<WorkExp />} />
                       {/*  <Route path="*" element={<NoPage />} /> */}
                     </Routes>
                   </div>
