@@ -36,3 +36,259 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  /* font-family: "Edu AU VIC WA NT Dots", cursive; */
+  /* font-family: "Edu AU VIC WA NT Dots", cursive; */
+  color: #292526;
+  font-size: 14px;
+  line-height: normal;
+
+}
+ p{
+  letter-spacing: 1px;
+    line-height: 30px;
+ }
+.leftFixed {
+  position: fixed;
+  left: 15px;
+  top: 0px;
+  background: #AF955A;
+  height: 100vh;
+  z-index: 2;
+}
+.leftFixed > .card , .leftFixed .list-group-item, .leftFixed .list-group-item a{
+  background: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+.navbar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #292526 !important;
+  z-index: 1;
+}
+.navbar.fixed a.nav-link , .navbar.fixed button.nav-link{
+  color:#AF955A ;
+  cursor: pointer;
+  padding: 0 10px;
+}
+.navbar.fixed a.nav-link:hover svg , .navbar.fixed button.nav-link:hover svg{
+  transform: scale(1.5);
+}
+.leftFixed  .list-group-item {
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-color: transparent;
+  transition: all .5s ease-in;
+  cursor: pointer;
+}
+.leftFixed  .list-group-item:hover {
+  letter-spacing: 1px;
+  transition: all .1s ease-out;
+}
+
+.leftFixed .card-body,.leftFixed .card-body a {
+  color: #fff !important;
+  font-weight: 600;
+  text-align: center;
+  font-style: italic;
+  line-height: normal;
+  text-decoration: none;
+}
+.title-top{
+  color: #AF955A;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #AF955A;
+  font-style: italic;
+  font-weight: 700;
+}
+.detailContainer {
+  padding-left: 28rem; 
+  padding-right: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.imgContainer {
+  max-width: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  /* box-shadow: 10px 10px 8px  #e3aeae; */
+}
+
+.skilllist{
+  list-style: none;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 0;
+  margin-bottom: 4rem;
+
+}
+.skilllist > li {
+  display: inline-flex;
+  position: relative;
+  
+}
+
+.skillContainer {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+}
+.imgSkill {
+  padding: 10px;
+  width:200px;
+  height: 200px;
+}
+.imgSkill svg {
+  width: 80%;
+  margin: 0 auto;
+}
+.imgSkill img{
+  max-width: 100%;
+  margin: auto;
+  
+}
+.skillContainer h5 {
+  font-size: medium;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  font-style: italic;
+  background: #AF955A;
+  padding: 10px 0;
+}
+
+.jobtitle{
+  color: #292526;
+  padding: 10px 0;
+  border-bottom: 2px solid rgb(41 37 38 / 10%);
+  position: relative;
+}
+.jobtitle::before{
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width:200px;
+  height: 4px;
+  content: '';
+  background: #AF955A;
+}
+.jobtitle h6{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-style: italic;
+}
+.jobtitle p{
+  color: #AF955A;;
+}
+.customize-list{
+  list-style: none;
+  padding: 20px 10px;
+}
+.customize-list li{
+  margin-bottom: 20px;
+  padding: 0 20px;
+  position: relative;
+}
+.customize-list li h6{
+  color: #AF955A;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: italic;
+
+}
+.customize-list li::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #AF955A;
+  height: 25px;
+  width: 4px;
+}
+.customize-list li a{
+  text-decoration: none;
+    color: #292526;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 14px;
+    background: oklab(0.68 0.01 0.08 / 0.25);
+    width: 100%;
+    display: block;
+    padding: 8px;
+    transition: all .5s ease-in;
+}
+.customize-list li a:hover{
+  letter-spacing: 2px;
+  transition: all .5s ease-out;
+}
+
+.deskView{
+  display: block;
+}
+.mobView{
+  display: none;
+}
+.mob-menu{
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  
+  .deskView{
+    display: none;
+  }
+  .mobView{
+    display: block;
+  }
+  .mobView .leftFixed{
+    position: relative;
+    width: auto !important;
+    height: auto;
+    left: auto;
+    top: 0;
+    margin: 0 auto;
+  }
+  .mobView .detailContainer {
+    padding: 0;
+  }
+  .mobView .list-group-flush.list-group{
+    display: none;
+  }
+  .mobView .navbar.fixed{
+    position: relative;
+  }
+  .mobView .leftFixed .card{
+    width: 100% !important;
+  }
+  .mobView  .skilllist{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .mobView  .skilllist .imgSkill{
+    height: auto;
+    width: auto;
+
+  }
+  .mobView  a.navbar-brand {
+      display: none;
+  }
+  .mobView  button.navbar-toggler {
+      background-color: #fff;
+      display: none;
+  }
+  .mob-menu{
+    display: inline;
+  }
+  .mob-menu ul.navbar-nav, .mob-menu ul.navbar-nav li {
+      display: inline-block;
+  }
+
+}
