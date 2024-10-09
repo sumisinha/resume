@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/navbar';
 import Profile from './components/profile';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from './about';
 import Education from './education';
 import ProfileSummary from './profileSummary';
@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <React.StrictMode>
-        <Router>
+        <Router >
           <div className='deskView'>
             <Navbar/>
             <div className="container-fluid my-3" style={{ textAlign:'left'}}>
@@ -25,7 +25,7 @@ function App() {
                   <Profile/>
                   <div className='detailContainer'>
                     <Routes>
-                      <Route path="/" element={<About />} />
+                      <Route exact path="/" element={<About />} />
                       <Route path="/about" element={<About />} />
                       <Route path="/education" element={<Education />} />
                       <Route path="/profile-summary" element={<ProfileSummary />} />
