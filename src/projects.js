@@ -18,8 +18,8 @@ function Projects () {
         <ul className='customize-list'>
             <li>
                 <h6>React Js Projects</h6>
-                <p> <a href='https://www.noon.com/uae-en/' target='_blanck' rel="noopener noreferrer">Noon E-commers <Link/></a></p>
-                <p><a href='https://www.namshi.com/home/' target='_blanck' rel="noopener noreferrer">Namshi E-commers <Link/></a></p>
+                <p> <a href='https://www.noon.com/uae-en/' target='_blanck' rel="noopener noreferrer">Noon E-commerce <Link/></a></p>
+                <p><a href='https://www.namshi.com/home/' target='_blanck' rel="noopener noreferrer">Namshi E-commerce <Link/></a></p>
                 <p><a href='https://thedubaimall.com/' target='_blanck' rel="noopener noreferrer">The Dubai Mall <Link/></a></p>
             </li>
             </ul>

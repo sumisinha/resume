@@ -13,11 +13,11 @@ function WorkExp () {
             <Row className='my-3 jobtitle'>
                 <Col>
                     <h6>Software Development Engineer 2</h6>
-                    <p>Limestone technologies Pvt Ltd / Noon e-commers pvt Limited</p>
+                    <p>Limestone Technologies Pvt Ltd / Noon e-commerce Pvt Limited</p>
                 </Col>
                 <Col className='text-end'>
                     <h6> Oct 2017 - Sept 2024</h6>
-                    <p> Gurgoan , India</p>
+                    <p> Gurgaon , India</p>
                 </Col>
             </Row>
             <Row>
@@ -117,7 +117,7 @@ function WorkExp () {
             <Row>
                 <Col>
                 <ul className='customize-list'>
-                    <li><p>Worked with HTML/CSS, HTML5/CSS3, Bootstrap, Shopify, php, liquied, jQuery and JavaScript.</p></li>
+                    <li><p>Worked with HTML/CSS, HTML5/CSS3, Bootstrap, Shopify, php, liquid, jQuery and JavaScript.</p></li>
                     <li><p>Converted PSD designs into HTML/CSS and customized Shopify themes with additional functionalities.</p></li>
                     <li><p>Specialized in responsive layouts and cross- platform development to ensure seamless user experiences across devices.</p></li>
                 </ul>

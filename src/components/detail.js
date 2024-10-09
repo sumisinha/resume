@@ -178,11 +178,11 @@ function Details () {
                     <Row className='my-3 jobtitle'>
                         <Col>
                             <h6>Software Development Engineer 2</h6>
-                            <p>Limestone technologies Pvt Ltd / Noon e-commers pvt Limited</p>
+                            <p>Limestone technologies Pvt Ltd / Noon e-commerce pvt Limited</p>
                         </Col>
                         <Col className='text-end'>
                             <h6> Oct 2017 - Sept 2024</h6>
-                            <p> Gurgoan , India</p>
+                            <p> Gurgaon , India</p>
                         </Col>
                     </Row>
                     <Row>
@@ -282,7 +282,7 @@ function Details () {
                     <Row>
                         <Col>
                         <ul className='customize-list'>
-                            <li><p>Worked with HTML/CSS, HTML5/CSS3, Bootstrap, Shopify, php, liquied, jQuery and JavaScript.</p></li>
+                            <li><p>Worked with HTML/CSS, HTML5/CSS3, Bootstrap, Shopify, php, liquid, jQuery and JavaScript.</p></li>
                             <li><p>Converted PSD designs into HTML/CSS and customized Shopify themes with additional functionalities.</p></li>
                             <li><p>Specialized in responsive layouts and cross- platform development to ensure seamless user experiences across devices.</p></li>
                         </ul>
@@ -295,8 +295,8 @@ function Details () {
                 <ul className='customize-list'>
                     <li>
                         <h6>React Js Projects</h6>
-                        <p> <a href='https://www.noon.com/uae-en/' target='_blanck' rel="noopener noreferrer">Noon E-commers <Link/></a></p>
-                        <p><a href='https://www.namshi.com/home/' target='_blanck' rel="noopener noreferrer">Namshi E-commers <Link/></a></p>
+                        <p> <a href='https://www.noon.com/uae-en/' target='_blanck' rel="noopener noreferrer">Noon E-commerce <Link/></a></p>
+                        <p><a href='https://www.namshi.com/home/' target='_blanck' rel="noopener noreferrer">Namshi E-commerce <Link/></a></p>
                         <p><a href='https://thedubaimall.com/' target='_blanck' rel="noopener noreferrer">The Dubai Mall <Link/></a></p>
                     </li>
                     </ul>
