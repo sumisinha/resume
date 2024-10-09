@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/navbar';
 import Profile from './components/profile';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import About from './about';
 import Education from './education';
 import ProfileSummary from './profileSummary';
