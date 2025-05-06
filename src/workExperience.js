@@ -12,6 +12,27 @@ function WorkExp () {
         <div className='my-3'>
             <Row className='my-3 jobtitle'>
                 <Col>
+                    <h6>Senior Software Development Engineer</h6>
+                    <p>Hexaware Technologies</p>
+                </Col>
+                <Col className='text-end'>
+                    <h6> Dec 2024 - Currenty</h6>
+                    <p> Pune , India</p>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <ul className='customize-list'>
+                        <li><p>Spearheaded the development of a new user interface, resulting in a 30% increase in user engagement and a 20% decrease in bounce rate.</p></li>
+                        <li><p> Implemented efficient code optimization techniques, leading to a 25% reduction in page load times and enhancing overall website performance.</p></li>
+                        <li><p> Mentored and trained junior developers, resulting in a 40% improvement in their coding skills and productivity.</p></li>
+                    </ul>
+                </Col>
+            </Row>
+        </div>
+        <div className='my-3'>
+            <Row className='my-3 jobtitle'>
+                <Col>
                     <h6>Software Development Engineer 2</h6>
                     <p>Limestone Technologies Pvt Ltd / Noon e-commerce Pvt Limited</p>
                 </Col>
